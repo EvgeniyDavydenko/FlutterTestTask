@@ -18,10 +18,10 @@ class HomePage extends StatefulWidget {
   final String title;
 
   @override
-  HomePageState createState() => HomePageState();
+  _HomePageState createState() => _HomePageState();
 }
 
-class HomePageState extends State<HomePage> {
+class _HomePageState extends State<HomePage> {
   Color randomBackgroundColor = Colors.white;
   static Color randomTextColor = Colors.black;
 
